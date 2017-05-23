@@ -10,7 +10,7 @@ public class MainTest {
 	public void before() {
 		main = new Main();
 	}
-	
+
 	@Test
 	public void testAdd() {
 		assertEquals(4, main.add(2, 2));
